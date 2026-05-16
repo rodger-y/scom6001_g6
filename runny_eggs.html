@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Runny eggs</title>
+  <style>
+    :root {
+      --paper: #f7f2e8;
+      --panel: rgba(255, 252, 246, 0.82);
+      --ink: #221d17;
+      --muted: #6b6258;
+      --line: #d6c8b6;
+      --accent: #8c4f2b;
+      --shadow: 0 18px 40px rgba(52, 37, 23, 0.12);
+    }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+      line-height: 1.7;
+      background:
+        radial-gradient(circle at top left, rgba(255,255,255,0.7), transparent 35%),
+        linear-gradient(180deg, #fbf6ee 0%, var(--paper) 100%);
+      color: var(--ink);
+    }
+    .page {
+      background: var(--panel);
+      border: 1px solid rgba(214, 200, 182, 0.7);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      padding: 28px 28px 32px;
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 2.35rem;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      margin-top: 34px;
+      margin-bottom: 14px;
+      font-size: 1.15rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    .image-slot {
+      margin: 20px 0 30px;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+    .image-frame {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      border: 1px solid rgba(117, 95, 70, 0.16);
+      border-radius: 16px;
+      background: linear-gradient(180deg, #f6f0e7 0%, #ede3d4 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      box-shadow: 0 10px 22px rgba(58, 39, 20, 0.08);
+    }
+    .image-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 220ms ease;
+    }
+    .image-frame:hover img {
+      transform: scale(1.02);
+    }
+    .image-placeholder {
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-align: center;
+      padding: 16px;
+    }
+    p {
+      margin: 0 0 14px;
+      font-size: 1.04rem;
+    }
+    ol {
+      padding-left: 24px;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 12px;
+      overflow-wrap: anywhere;
+      color: #3a332c;
+    }
+    a {
+      color: #7a3f19;
+    }
+    sup {
+      font-size: 0.72em;
+      vertical-align: super;
+      line-height: 0;
+    }
+    @media (max-width: 640px) {
+      body {
+        padding: 20px 12px 40px;
+      }
+      .page {
+        padding: 20px 18px 24px;
+        border-radius: 18px;
+      }
+      h1 {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Runny eggs</h1>
+    <div class="image-slot">
+      <div class="image-grid">
+        <div class="image-frame"><img src="images/runny_eggs_01.jpg" alt="Runny eggs" /></div>
+      </div>
+    </div>
+    <p>Eggs are a common source of protein. They appear frequently in dietary guides and fitness influencer videos. They are accessible in supermarkets, and prices vary. <sup>1</sup> <sup>2</sup></p>
+<p>Eggs also have a common appearance in ethical debates about animal rights. <sup>3</sup></p>
+<p>They are a source of choline and other nutrients. <sup>2</sup></p>
+<p>A soft yolk or runny texture is culturally normal and sometimes preferred for aesthetics, but raw or lightly cooked eggs can contain Salmonella unless they are pasteurised. Pasteurisation is not guaranteed in all eggs. <sup>1</sup> <sup>4</sup></p>
+<p>The relationship between high egg intake and cardiovascular health remains debated. <sup>2</sup></p>
+    <h2>References</h2>
+    <ol>
+      <li value="1">U.S. Food and Drug Administration. Egg safety: What you need to know. <a href="https://www.fda.gov/food/buy-store-serve-safe-food/egg-safety-what-you-need-know">https://www.fda.gov/food/buy-store-serve-safe-food/egg-safety-what-you-need-know</a></li>
+<li value="2">Ruxton CHS, Derbyshire E, Gibson S. The nutritional benefits of eggs. Nutrients. 2023;15(12):2657. <a href="https://www.mdpi.com/2072-6643/15/12/2657">https://www.mdpi.com/2072-6643/15/12/2657</a></li>
+<li value="3">RSPCA Australia. Layer hens and egg production. <a href="https://www.rspca.org.au/what-we-do/end-factory-farming/egg-production/">https://www.rspca.org.au/what-we-do/end-factory-farming/egg-production/</a></li>
+<li value="4">Centers for Disease Control and Prevention. Egg preparation. <a href="https://www.cdc.gov/restaurant-food-safety/php/practices/egg-preparation.html">https://www.cdc.gov/restaurant-food-safety/php/practices/egg-preparation.html</a></li>
+    </ol>
+  </div>
+</body>
+</html>

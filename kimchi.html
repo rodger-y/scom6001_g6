@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Kimchi</title>
+  <style>
+    :root {
+      --paper: #f7f2e8;
+      --panel: rgba(255, 252, 246, 0.82);
+      --ink: #221d17;
+      --muted: #6b6258;
+      --line: #d6c8b6;
+      --accent: #8c4f2b;
+      --shadow: 0 18px 40px rgba(52, 37, 23, 0.12);
+    }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+      line-height: 1.7;
+      background:
+        radial-gradient(circle at top left, rgba(255,255,255,0.7), transparent 35%),
+        linear-gradient(180deg, #fbf6ee 0%, var(--paper) 100%);
+      color: var(--ink);
+    }
+    .page {
+      background: var(--panel);
+      border: 1px solid rgba(214, 200, 182, 0.7);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      padding: 28px 28px 32px;
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 2.35rem;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      margin-top: 34px;
+      margin-bottom: 14px;
+      font-size: 1.15rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    .image-slot {
+      margin: 20px 0 30px;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+    .image-frame {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      border: 1px solid rgba(117, 95, 70, 0.16);
+      border-radius: 16px;
+      background: linear-gradient(180deg, #f6f0e7 0%, #ede3d4 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      box-shadow: 0 10px 22px rgba(58, 39, 20, 0.08);
+    }
+    .image-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 220ms ease;
+    }
+    .image-frame:hover img {
+      transform: scale(1.02);
+    }
+    .image-placeholder {
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-align: center;
+      padding: 16px;
+    }
+    p {
+      margin: 0 0 14px;
+      font-size: 1.04rem;
+    }
+    ol {
+      padding-left: 24px;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 12px;
+      overflow-wrap: anywhere;
+      color: #3a332c;
+    }
+    a {
+      color: #7a3f19;
+    }
+    sup {
+      font-size: 0.72em;
+      vertical-align: super;
+      line-height: 0;
+    }
+    @media (max-width: 640px) {
+      body {
+        padding: 20px 12px 40px;
+      }
+      .page {
+        padding: 20px 18px 24px;
+        border-radius: 18px;
+      }
+      h1 {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Kimchi</h1>
+    <div class="image-slot">
+      <div class="image-grid">
+        <div class="image-frame"><img src="images/kimchi_1.jpg" alt="Kimchi" /></div>
+      </div>
+    </div>
+    <p>Kimchi is a Korean fermented food with major cultural significance. <sup>1</sup> <sup>2</sup></p>
+<p>When removed from packaging, sour smell, bubbles, pressure release, and cloudiness are normal. <sup>2</sup> <sup>3</sup></p>
+<p>It is widely discussed as a functional food with possible gut, metabolic, and anti-inflammatory benefits, though the strength of evidence varies. <sup>1</sup> <sup>4</sup></p>
+<p>When fermentation or handling does not meet standard, it risks contamination. <sup>5</sup> <sup>6</sup></p>
+    <h2>References</h2>
+    <ol>
+      <li value="1">Tamang JP, et al. Fermented foods in a global age: East Asian traditions and health claims. Nutrients. 2024;17(12):1989. <a href="https://www.mdpi.com/2072-6643/17/12/1989">https://www.mdpi.com/2072-6643/17/12/1989</a></li>
+<li value="2">Choi YJ, et al. Quality characteristics of kimchi during fermentation. Foods. 2020;9(8):1075. <a href="https://www.mdpi.com/2304-8158/9/8/1075">https://www.mdpi.com/2304-8158/9/8/1075</a></li>
+<li value="3">Liu X, et al. Aroma chemistry of kimchi fermentation. Molecules. 2025;30(13):2731. <a href="https://www.mdpi.com/1420-3049/30/13/2731">https://www.mdpi.com/1420-3049/30/13/2731</a></li>
+<li value="4">Kim J, et al. Health benefits of kimchi and fermented Brassica foods. Nutrients. 2021;13(5):1516. <a href="https://www.mdpi.com/2072-6643/13/5/1516">https://www.mdpi.com/2072-6643/13/5/1516</a></li>
+<li value="5">Cho SH, et al. Outbreak of enterotoxigenic Escherichia coli O169 enteritis associated with kimchi. Epidemiol Infect. 2014. <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2294F7AB00B7A43859D0E9A014456AAC/S0950268813001477a.pdf/outbreak-of-enterotoxigenic-escherichia-coli-o169-enteritis-in-schoolchildren-associated-with-consumption-of-kimchi-republic-of-korea-2012.pdf">https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2294F7AB00B7A43859D0E9A014456AAC/S0950268813001477a.pdf/outbreak-of-enterotoxigenic-escherichia-coli-o169-enteritis-in-schoolchildren-associated-with-consumption-of-kimchi-republic-of-korea-2012.pdf</a></li>
+<li value="6">FDA. 5000 Years Foods, Inc recall of cabbage kimchi. <a href="https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/5000-years-foods-inc-recall-cabbage-kimchi-because-possible-health-risk">https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/5000-years-foods-inc-recall-cabbage-kimchi-because-possible-health-risk</a></li>
+    </ol>
+  </div>
+</body>
+</html>
