@@ -1,0 +1,10 @@
+1. Natto
+
+Natto is a traditional Japanese food made with fermented soybeans. ₁
+It is sticky, stringy, and has a strong odour, so cues that might look spoiled in other foods are normal here. However, its safety depends on controlled fermentation. ₁ ₂
+It has possible cardiometabolic benefits; however, its high vitamin K may interact with warfarin anticoagulation (a blood thinner) and reduce its efficacy. It also contains soy allergen. ₁ ₃
+
+References
+₁ Marco ML, Heeney D, Binda S, et al. Health benefits of fermented foods: microbiota and beyond. Curr Opin Biotechnol. 2017;44:94-102. https://pubmed.ncbi.nlm.nih.gov/27773599/
+₂ Lee JH, Cho KM. Aroma and flavour characteristics of natto. Foods. 2022;11(17):2674. https://www.mdpi.com/2304-8158/11/17/2674
+₃ Chen H, McGowan EM, Ren N, et al. Nattokinase: A promising alternative in prevention and treatment of cardiovascular diseases. Int J Mol Sci. 2017;18(3):523. https://www.mdpi.com/1422-0067/18/3/523

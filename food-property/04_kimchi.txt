@@ -1,0 +1,14 @@
+4. Kimchi
+
+Kimchi is a Korean fermented food with major cultural significance. ₁ ₂
+When removed from packaging, sour smell, bubbles, pressure release, and cloudiness are normal. ₂ ₃
+It is widely discussed as a functional food with possible gut, metabolic, and anti-inflammatory benefits, though the strength of evidence varies. ₁ ₄
+When fermentation or handling does not meet standard, it risks contamination. ₅ ₆
+
+References
+₁ Tamang JP, et al. Fermented foods in a global age: East Asian traditions and health claims. Nutrients. 2024;17(12):1989. https://www.mdpi.com/2072-6643/17/12/1989
+₂ Choi YJ, et al. Quality characteristics of kimchi during fermentation. Foods. 2020;9(8):1075. https://www.mdpi.com/2304-8158/9/8/1075
+₃ Liu X, et al. Aroma chemistry of kimchi fermentation. Molecules. 2025;30(13):2731. https://www.mdpi.com/1420-3049/30/13/2731
+₄ Kim J, et al. Health benefits of kimchi and fermented Brassica foods. Nutrients. 2021;13(5):1516. https://www.mdpi.com/2072-6643/13/5/1516
+₅ Cho SH, et al. Outbreak of enterotoxigenic Escherichia coli O169 enteritis associated with kimchi. Epidemiol Infect. 2014. https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2294F7AB00B7A43859D0E9A014456AAC/S0950268813001477a.pdf/outbreak-of-enterotoxigenic-escherichia-coli-o169-enteritis-in-schoolchildren-associated-with-consumption-of-kimchi-republic-of-korea-2012.pdf
+₆ FDA. 5000 Years Foods, Inc recall of cabbage kimchi. https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/5000-years-foods-inc-recall-cabbage-kimchi-because-possible-health-risk

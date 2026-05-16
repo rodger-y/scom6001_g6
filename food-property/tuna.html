@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Tuna</title>
+  <style>
+    :root {
+      --paper: #f7f2e8;
+      --panel: rgba(255, 252, 246, 0.82);
+      --ink: #221d17;
+      --muted: #6b6258;
+      --line: #d6c8b6;
+      --accent: #8c4f2b;
+      --shadow: 0 18px 40px rgba(52, 37, 23, 0.12);
+    }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+      line-height: 1.7;
+      background:
+        radial-gradient(circle at top left, rgba(255,255,255,0.7), transparent 35%),
+        linear-gradient(180deg, #fbf6ee 0%, var(--paper) 100%);
+      color: var(--ink);
+    }
+    .page {
+      background: var(--panel);
+      border: 1px solid rgba(214, 200, 182, 0.7);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      padding: 28px 28px 32px;
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 2.35rem;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      margin-top: 34px;
+      margin-bottom: 14px;
+      font-size: 1.15rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    .image-slot {
+      margin: 20px 0 30px;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+    .image-frame {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      border: 1px solid rgba(117, 95, 70, 0.16);
+      border-radius: 16px;
+      background: linear-gradient(180deg, #f6f0e7 0%, #ede3d4 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      box-shadow: 0 10px 22px rgba(58, 39, 20, 0.08);
+    }
+    .image-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 220ms ease;
+    }
+    .image-frame:hover img {
+      transform: scale(1.02);
+    }
+    .image-placeholder {
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-align: center;
+      padding: 16px;
+    }
+    p {
+      margin: 0 0 14px;
+      font-size: 1.04rem;
+    }
+    ol {
+      padding-left: 24px;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 12px;
+      overflow-wrap: anywhere;
+      color: #3a332c;
+    }
+    a {
+      color: #7a3f19;
+    }
+    sup {
+      font-size: 0.72em;
+      vertical-align: super;
+      line-height: 0;
+    }
+    @media (max-width: 640px) {
+      body {
+        padding: 20px 12px 40px;
+      }
+      .page {
+        padding: 20px 18px 24px;
+        border-radius: 18px;
+      }
+      h1 {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Tuna</h1>
+    <div class="image-slot">
+      <div class="image-grid">
+        <div class="image-frame"><img src="images/tuna_1.jpg" alt="Tuna" /></div>
+<div class="image-frame"><img src="images/tuna_2.jpg" alt="Tuna" /></div>
+      </div>
+    </div>
+    <p>Tuna products are common in the market, including sashimi and canned products. <sup>1</sup></p>
+<p>Canned tuna is often associated with health culture due to its high protein content. <sup>1</sup></p>
+<p>Tuna sashimi is often sold as a premium food at high prices. <sup>1</sup></p>
+<p>Some species of tuna have been reported to contain relatively high concentrations of mercury (Hg), which can contribute to mercury poisoning after heavy long-term fish consumption. Australia reports on mercury under the Minamata Convention, but that does not mean every tuna product is individually tested and reported to the United Nations. <sup>2</sup> <sup>3</sup> <sup>4</sup></p>
+<p>Tuna is also linked to scombroid poisoning (histamine fish poisoning) when improperly refrigerated. <sup>5</sup> <sup>6</sup></p>
+    <h2>References</h2>
+    <ol>
+      <li value="1">U.S. Food and Drug Administration. Advice about eating fish. <a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">https://www.fda.gov/food/consumers/advice-about-eating-fish</a></li>
+<li value="2">U.S. Environmental Protection Agency. Guidelines for eating fish that contain mercury. <a href="https://www.epa.gov/mercury/guidelines-eating-fish-contain-mercury">https://www.epa.gov/mercury/guidelines-eating-fish-contain-mercury</a></li>
+<li value="3">Hightower JM, Moore D. Mercury levels in high-end consumers of fish. Environ Health Perspect. 2003;111(4):604-608. <a href="https://ehp.niehs.nih.gov/doi/pdf/10.1289/ehp.5837">https://ehp.niehs.nih.gov/doi/pdf/10.1289/ehp.5837</a></li>
+<li value="4">Australian Department of Climate Change, Energy, the Environment and Water. Minamata Convention on Mercury. <a href="https://www.dcceew.gov.au/environment/protection/chemicals-management/mercury">https://www.dcceew.gov.au/environment/protection/chemicals-management/mercury</a></li>
+<li value="5">Centers for Disease Control and Prevention. Scombroid fish poisoning associated with tuna steaks. <a href="https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5632a2.htm">https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5632a2.htm</a></li>
+<li value="6">Hwang CC, et al. Histamine fish poisoning outbreak linked to yellowfin tuna. <a href="https://pubmed.ncbi.nlm.nih.gov/33428741/">https://pubmed.ncbi.nlm.nih.gov/33428741/</a></li>
+    </ol>
+  </div>
+</body>
+</html>

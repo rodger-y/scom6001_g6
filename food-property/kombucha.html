@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Kombucha</title>
+  <style>
+    :root {
+      --paper: #f7f2e8;
+      --panel: rgba(255, 252, 246, 0.82);
+      --ink: #221d17;
+      --muted: #6b6258;
+      --line: #d6c8b6;
+      --accent: #8c4f2b;
+      --shadow: 0 18px 40px rgba(52, 37, 23, 0.12);
+    }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+      line-height: 1.7;
+      background:
+        radial-gradient(circle at top left, rgba(255,255,255,0.7), transparent 35%),
+        linear-gradient(180deg, #fbf6ee 0%, var(--paper) 100%);
+      color: var(--ink);
+    }
+    .page {
+      background: var(--panel);
+      border: 1px solid rgba(214, 200, 182, 0.7);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      padding: 28px 28px 32px;
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 2.35rem;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      margin-top: 34px;
+      margin-bottom: 14px;
+      font-size: 1.15rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    .image-slot {
+      margin: 20px 0 30px;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+    .image-frame {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      border: 1px solid rgba(117, 95, 70, 0.16);
+      border-radius: 16px;
+      background: linear-gradient(180deg, #f6f0e7 0%, #ede3d4 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      box-shadow: 0 10px 22px rgba(58, 39, 20, 0.08);
+    }
+    .image-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 220ms ease;
+    }
+    .image-frame:hover img {
+      transform: scale(1.02);
+    }
+    .image-placeholder {
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-align: center;
+      padding: 16px;
+    }
+    p {
+      margin: 0 0 14px;
+      font-size: 1.04rem;
+    }
+    ol {
+      padding-left: 24px;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 12px;
+      overflow-wrap: anywhere;
+      color: #3a332c;
+    }
+    a {
+      color: #7a3f19;
+    }
+    sup {
+      font-size: 0.72em;
+      vertical-align: super;
+      line-height: 0;
+    }
+    @media (max-width: 640px) {
+      body {
+        padding: 20px 12px 40px;
+      }
+      .page {
+        padding: 20px 18px 24px;
+        border-radius: 18px;
+      }
+      h1 {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Kombucha</h1>
+    <div class="image-slot">
+      <div class="image-grid">
+        <div class="image-frame"><img src="images/kombucha_1.jpg" alt="Kombucha" /></div>
+      </div>
+    </div>
+    <p>Kombucha is a fermented tea drink strongly associated with wellness culture in recent years. <sup>1</sup> <sup>2</sup></p>
+<p>Cloudiness, fizz, sediment, sour smell, and pressure on opening are normal. It is acidic in taste, and it may be unpleasant to some people. <sup>1</sup> <sup>2</sup></p>
+<p>It is often marketed for gut health or probiotic benefits, although some claims reach beyond what the evidence can justify. <sup>1</sup> <sup>3</sup></p>
+<p>It contains variable alcohol content and may bear contamination in uncontrolled handling environments. Adverse case reports have linked accidents to homebrewing. <sup>3</sup> <sup>4</sup></p>
+    <h2>References</h2>
+    <ol>
+      <li value="1">Villarreal-Soto SA, et al. Understanding kombucha tea fermentation: A review. J Food Sci. 2018;83(3):580-588. <a href="https://pubmed.ncbi.nlm.nih.gov/29483849/">https://pubmed.ncbi.nlm.nih.gov/29483849/</a></li>
+<li value="2">Marco ML, Heeney D, Binda S, et al. Health benefits of fermented foods: microbiota and beyond. Curr Opin Biotechnol. 2017;44:94-102. <a href="https://pubmed.ncbi.nlm.nih.gov/27773599/">https://pubmed.ncbi.nlm.nih.gov/27773599/</a></li>
+<li value="3">Kapp JM, Sumner W. Kombucha: A systematic review of the empirical evidence of human health benefit. Ann Epidemiol. 2019;30:66-70. <a href="https://pubmed.ncbi.nlm.nih.gov/30409354/">https://pubmed.ncbi.nlm.nih.gov/30409354/</a></li>
+<li value="4">Centers for Disease Control and Prevention. Unexplained severe illness possibly associated with consumption of kombucha tea. <a href="https://pubmed.ncbi.nlm.nih.gov/19460826/">https://pubmed.ncbi.nlm.nih.gov/19460826/</a></li>
+    </ol>
+  </div>
+</body>
+</html>
